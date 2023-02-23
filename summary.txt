@@ -1,0 +1,31 @@
+﻿1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+
+Apart from the reason that I am highly proficient in Java, I chose Java and its related tools/libraries due to the following reasons:
+* Platform-independent: Java is a platform-independent language, which means that the code written in Java can run on any platform that has a Java Virtual Machine (JVM). This makes it easy to write and deploy Java applications on multiple platforms.
+* Rich set of libraries: Java has a rich set of libraries and frameworks that can be used to handle various tasks, including file I/O, networking, and date/time manipulation. These libraries can help in writing efficient and reliable code.
+* Strongly typed language: Java is a strongly typed language, which means that variables and expressions have a specific data type. This helps in catching errors at compile-time and makes the code more robust.
+* Object-oriented programming support: Java is an object-oriented programming language that supports concepts such as inheritance, polymorphism, and encapsulation. These concepts make it easy to write modular and reusable code.
+
+
+        2. What are the advantages and disadvantages of your solution?
+    
+      Advantages of my solution:
+* Accurate tracking of points: The solution ensures accurate tracking of points earned and spent by each payer, ensuring that the balance for each payer is correctly maintained.
+* Flexibility: The solution is flexible and can be easily modified to accommodate changes to the transaction data structure or new business rules.
+* Maintainability: The solution is written in an object-oriented language and follows software engineering best practices, making it easier to maintain and update over time.
+* Reusability: The solution is designed to be modular, making it easy to reuse the code for similar problems in the future.
+
+
+     Disadvantages of my solution:
+* Performance: The current implementation requires loading all the transaction records into memory at once, which could be a problem if there are a large number of records. This could lead to memory constraints and slow down the performance of the application.
+* Input Validation: The solution assumes that the input CSV file is well-formed and does not perform any error handling for invalid input or edge cases.
+* Scalability: The current approach maintains the payer balances in memory, which may not be scalable if the number of payers and transactions grows significantly. A more scalable solution would be to use a database to store the payer balances.
+* Persistence: The solution does not persist the state of the point balances after the program terminates. If the program is restarted, the point balances would start from scratch, and there would be no record of past transactions.
+* Practical Scenarios: The solution only considers the timestamp of the transactions for sorting the point spending order. In real-world scenarios, there might be other factors to consider when spending points, such as the type of transaction, the priority of the payer, or the expiration date of the points.
+
+
+ 3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+
+My favorite project was creating an intelligent agent for the electronic patient record (EPR) analysis and easy planning for decision-making scenarios during my undergraduate summer. I developed and integrated a clinical named entity recognition (NER) model with speech-to-text and medical ontologies for real-time patient-physician conversation analytics. While starting the project, I had a general idea of machine learning, but I didn’t know how it is utilized for biomedical data. Due to this reason, I had to do a literature survey on natural language processing (NLP), sequence tagging, and mining techniques used with biomedical texts. To acquire the datasets and dictionaries, I had to connect with the Faculty of Medicine at the university. The biggest challenge for me at that time was connecting my machine learning backend code (in Python) with my front-end written in Angular. Since I had no actual industry experience at that time, I also experienced some difficulties in finding the best way to integrate the speech-to-text API into the system. This project not only introduced me to artificial neural networks but also gave me the confidence to develop a full-stack application on my own based on any given requirements.
