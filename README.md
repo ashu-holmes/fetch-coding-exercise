@@ -8,5 +8,6 @@
 - Run the program using "java Fetch 'the-amount-of-points-to-spend' 'name-of-CSV-file'"
 
 Example:
+
 C:\fetch-coding-exercise-master>javac Fetch.java                                                                                         
 C:\fetch-coding-exercise-master>java Fetch 5000 transactions.csv 
