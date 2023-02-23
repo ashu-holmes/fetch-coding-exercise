@@ -29,8 +29,10 @@ Apart from the reason that I am highly proficient in Java, I chose Java and its 
 
 
 My favorite project was creating an intelligent agent for the electronic patient record (EPR) analysis and easy planning for decision-making scenarios during my undergraduate summer. 
-I developed and integrated a clinical named entity recognition (NER) model with speech-to-text and medical ontologies for real-time patient-physician conversation analytics. While starting the project, I had a general idea of machine learning, but I didn’t know how it is utilized for biomedical data. 
-Due to this reason, I had to do a literature survey on natural language processing (NLP), sequence tagging, and mining techniques used with biomedical texts. To acquire the datasets and dictionaries, I had to connect with the Faculty of Medicine at the university. 
+I developed and integrated a clinical named entity recognition (NER) model with speech-to-text and medical ontologies for real-time patient-physician conversation analytics. 
+While starting the project, I had a general idea of machine learning, but I didn’t know how it is utilized for biomedical data. 
+Due to this reason, I had to do a literature survey on natural language processing (NLP), sequence tagging, and mining techniques used with biomedical texts. 
+To acquire the datasets and dictionaries, I had to connect with the Faculty of Medicine at the university. 
 The biggest challenge for me at that time was connecting my machine learning backend code (in Python) with my front-end written in Angular. 
 Since I had no actual industry experience at that time, I also experienced some difficulties in finding the best way to integrate the speech-to-text API into the system. 
 This project not only introduced me to artificial neural networks but also gave me the confidence to develop a full-stack application on my own based on any given requirements.
